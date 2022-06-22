@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import WeatherData from "./WeatherData";
+import  Navbar  from "./Navbar";
 
 function Home() {
-  const apiKey = "";
+  const apiKey = "5d7a77e26e85e18e76823fa42cd9d5e9";
   const [weatherData, setWeatherData] = useState([{}]);
   const [city, setCity] = useState("");
 
@@ -20,6 +21,7 @@ function Home() {
   };
   return (
     <div className="app">
+      <Navbar/>
       <div className="container">
         <input
           className="input"
