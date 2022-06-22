@@ -3,7 +3,7 @@ import WeatherData from "./WeatherData";
 import  Navbar  from "./Navbar";
 
 function Home() {
-  const apiKey = "5d7a77e26e85e18e76823fa42cd9d5e9";
+  const apiKey = "";
   const [weatherData, setWeatherData] = useState([{}]);
   const [city, setCity] = useState("");
 
